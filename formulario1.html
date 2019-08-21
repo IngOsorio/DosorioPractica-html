@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="formulario1.html" name="meta">
+    <label for="meta-1">Meta</label>
+    <input type="text" name="meta" id="meta-1" placeholder="Escribe tu meta">
+    <br>
+
+    <label for="descripcion-1">Descripcion:</label>
+    <br>
+    <textarea name="descripcion" id="descripcion-1" cols="30" rows="10" placeholder="Escribe la descripcion de la meta"></textarea>
+
+    <br>
+    <label for="plazo">Plazo</label>
+    
+    <select name="plazo" id="plazo">
+        <option value="1">uno</option>
+        <option value="3">tres</option>
+        <option value="5">cinco</option>
+        <option value="10">diez</option>
+    </select>
+
+    <br>
+
+    <label for="indispensable">¿Es indispensable?</label>
+    <br>
+    <input type="radio" value="SI" name="indispensable">indispensable
+    <br>
+    <input type="radio" value="NO" name="indispensable">No puedo vivir sin ello
+    
+    <br>
+    <br>
+
+    <label for="periodo">¿Cuando debí hacerlo?</label>
+    <br>
+    <input type="checkbox" name="periodo" value="Antes">Antes de la carrera
+    <br>
+    <input type="checkbox" name="periodo" value="Durante">Durante la carrera
+    <br>
+    <input type="checkbox" name="periodo" value="Despues" id="">Despues de la carrera
+
+    <br>
+
+    <input type="hidden" name="1234" name="codigo">
+
+    <br>
+
+    <label for="psw">Contraseña</label>
+    <input type="password" name="psw">
+
+    <br>
+
+    <button type="submit">Enviar</button>
+    <input type="submit" value="Enviar con input">
+
+    </form>
+
+
+</body>
+</html>
